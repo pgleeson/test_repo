@@ -2285,7 +2285,159 @@
             <connection id="8" preCellId="../pop_bistratified/0/bistratifiedcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_cck/0/cckcell" postSegmentId="26" postFractionAlong="5.3164139797e-07"/>
             <connection id="9" preCellId="../pop_bistratified/0/bistratifiedcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_cck/0/cckcell" postSegmentId="15" postFractionAlong="0.999999610581"/>
         </projection>
-        <projection id="proj_ngfpop_to_poolosynpop" presynapticPopulation="pop_ngf" postsynapticPopulation="pop_poolosyn" synapse="syn_ngf_to_poolosyn">
+        <projection id="proj_ngfpop_to_poolosynpop_A" presynapticPopulation="pop_ngf" postsynapticPopulation="pop_poolosyn" synapse="syn_ngf_to_poolosyn_A">
+            <connection id="0" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/10/poolosyncell" postSegmentId="335" postFractionAlong="0.999974923653"/>
+            <connection id="1" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/10/poolosyncell" postSegmentId="226" postFractionAlong="0.999975814969"/>
+            <connection id="2" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/10/poolosyncell" postSegmentId="271" postFractionAlong="6.49997867019e-05"/>
+            <connection id="3" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/10/poolosyncell" postSegmentId="145" postFractionAlong="0.5"/>
+            <connection id="4" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/10/poolosyncell" postSegmentId="385" postFractionAlong="0.499999999994"/>
+            <connection id="5" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/10/poolosyncell" postSegmentId="145" postFractionAlong="0.5"/>
+            <connection id="6" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/10/poolosyncell" postSegmentId="220" postFractionAlong="0.500026281193"/>
+            <connection id="7" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/10/poolosyncell" postSegmentId="367" postFractionAlong="0.0"/>
+            <connection id="8" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/10/poolosyncell" postSegmentId="349" postFractionAlong="2.31408153619e-15"/>
+            <connection id="9" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/10/poolosyncell" postSegmentId="399" postFractionAlong="4.74982196414e-06"/>
+            <connection id="10" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/11/poolosyncell" postSegmentId="415" postFractionAlong="0.500002578471"/>
+            <connection id="11" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/11/poolosyncell" postSegmentId="241" postFractionAlong="0.500006200538"/>
+            <connection id="12" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/11/poolosyncell" postSegmentId="107"/>
+            <connection id="13" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/11/poolosyncell" postSegmentId="110" postFractionAlong="0.499999002786"/>
+            <connection id="14" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/11/poolosyncell" postSegmentId="226" postFractionAlong="0.999975814969"/>
+            <connection id="15" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/11/poolosyncell" postSegmentId="241" postFractionAlong="0.500006200538"/>
+            <connection id="16" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/11/poolosyncell" postSegmentId="145" postFractionAlong="0.5"/>
+            <connection id="17" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/11/poolosyncell" postSegmentId="307" postFractionAlong="1.25058615817e-15"/>
+            <connection id="18" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/11/poolosyncell" postSegmentId="434" postFractionAlong="0.499979354574"/>
+            <connection id="19" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/11/poolosyncell" postSegmentId="288" postFractionAlong="2.50250187615e-05"/>
+            <connection id="20" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/12/poolosyncell" postSegmentId="388" postFractionAlong="0.99992062567"/>
+            <connection id="21" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/12/poolosyncell" postSegmentId="335" postFractionAlong="0.999974923653"/>
+            <connection id="22" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/12/poolosyncell" postSegmentId="298" postFractionAlong="1.37379510906e-05"/>
+            <connection id="23" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/12/poolosyncell" postSegmentId="78" postFractionAlong="0.500000429382"/>
+            <connection id="24" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/12/poolosyncell" postSegmentId="104" postFractionAlong="1.56811282969e-05"/>
+            <connection id="25" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/12/poolosyncell" postSegmentId="378" postFractionAlong="0.5"/>
+            <connection id="26" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/12/poolosyncell" postSegmentId="360" postFractionAlong="0.999981744496"/>
+            <connection id="27" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/12/poolosyncell" postSegmentId="152" postFractionAlong="0.5"/>
+            <connection id="28" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/12/poolosyncell" postSegmentId="236" postFractionAlong="0.499999691926"/>
+            <connection id="29" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/12/poolosyncell" postSegmentId="137" postFractionAlong="0.999976693672"/>
+            <connection id="30" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/13/poolosyncell" postSegmentId="463" postFractionAlong="0.5"/>
+            <connection id="31" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/13/poolosyncell" postSegmentId="262" postFractionAlong="1.10099959086e-05"/>
+            <connection id="32" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/13/poolosyncell" postSegmentId="172" postFractionAlong="0.50000000002"/>
+            <connection id="33" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/13/poolosyncell" postSegmentId="463" postFractionAlong="0.5"/>
+            <connection id="34" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/13/poolosyncell" postSegmentId="415" postFractionAlong="0.500002578471"/>
+            <connection id="35" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/13/poolosyncell" postSegmentId="415" postFractionAlong="0.500002578471"/>
+            <connection id="36" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/13/poolosyncell" postSegmentId="298" postFractionAlong="1.37379510906e-05"/>
+            <connection id="37" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/13/poolosyncell" postSegmentId="78" postFractionAlong="0.500000429382"/>
+            <connection id="38" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/13/poolosyncell" postSegmentId="307" postFractionAlong="1.25058615817e-15"/>
+            <connection id="39" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/13/poolosyncell" postSegmentId="446" postFractionAlong="0.4999948015"/>
+            <connection id="40" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/14/poolosyncell" postSegmentId="434" postFractionAlong="0.499979354574"/>
+            <connection id="41" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/14/poolosyncell" postSegmentId="321" postFractionAlong="0.5"/>
+            <connection id="42" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/14/poolosyncell" postSegmentId="94" postFractionAlong="0.500007193388"/>
+            <connection id="43" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/14/poolosyncell" postSegmentId="262" postFractionAlong="1.10099959086e-05"/>
+            <connection id="44" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/14/poolosyncell" postSegmentId="349" postFractionAlong="2.31408153619e-15"/>
+            <connection id="45" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/14/poolosyncell" postSegmentId="172" postFractionAlong="0.50000000002"/>
+            <connection id="46" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/14/poolosyncell" postSegmentId="335" postFractionAlong="0.999974923653"/>
+            <connection id="47" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/14/poolosyncell" postSegmentId="201"/>
+            <connection id="48" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/14/poolosyncell" postSegmentId="405" postFractionAlong="0.500013966001"/>
+            <connection id="49" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/14/poolosyncell" postSegmentId="205" postFractionAlong="0.500022436335"/>
+            <connection id="50" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/15/poolosyncell" postSegmentId="110" postFractionAlong="0.499999002786"/>
+            <connection id="51" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/15/poolosyncell" postSegmentId="288" postFractionAlong="2.50250187615e-05"/>
+            <connection id="52" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/15/poolosyncell" postSegmentId="335" postFractionAlong="0.999974923653"/>
+            <connection id="53" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/15/poolosyncell" postSegmentId="241" postFractionAlong="0.500006200538"/>
+            <connection id="54" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/15/poolosyncell" postSegmentId="251" postFractionAlong="3.96989697351e-12"/>
+            <connection id="55" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/15/poolosyncell" postSegmentId="283" postFractionAlong="0.500000298164"/>
+            <connection id="56" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/15/poolosyncell" postSegmentId="172" postFractionAlong="0.50000000002"/>
+            <connection id="57" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/15/poolosyncell" postSegmentId="496" postFractionAlong="9.4804221985e-06"/>
+            <connection id="58" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/15/poolosyncell" postSegmentId="86"/>
+            <connection id="59" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/15/poolosyncell" postSegmentId="78" postFractionAlong="0.500000429382"/>
+            <connection id="60" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/16/poolosyncell" postSegmentId="78" postFractionAlong="0.500000429382"/>
+            <connection id="61" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/16/poolosyncell" postSegmentId="344" postFractionAlong="0.999932444388"/>
+            <connection id="62" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/16/poolosyncell" postSegmentId="214" postFractionAlong="0.5"/>
+            <connection id="63" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/16/poolosyncell" postSegmentId="214" postFractionAlong="0.5"/>
+            <connection id="64" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/16/poolosyncell" postSegmentId="496" postFractionAlong="9.4804221985e-06"/>
+            <connection id="65" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/16/poolosyncell" postSegmentId="426" postFractionAlong="0.999998456265"/>
+            <connection id="66" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/16/poolosyncell" postSegmentId="94" postFractionAlong="0.500007193388"/>
+            <connection id="67" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/16/poolosyncell" postSegmentId="275" postFractionAlong="0.500025287008"/>
+            <connection id="68" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/16/poolosyncell" postSegmentId="280" postFractionAlong="1.6093190015e-06"/>
+            <connection id="69" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/16/poolosyncell" postSegmentId="321" postFractionAlong="0.5"/>
+            <connection id="70" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/17/poolosyncell" postSegmentId="162" postFractionAlong="2.92498705586e-05"/>
+            <connection id="71" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/17/poolosyncell" postSegmentId="307" postFractionAlong="1.25058615817e-15"/>
+            <connection id="72" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/17/poolosyncell" postSegmentId="399" postFractionAlong="4.74982196414e-06"/>
+            <connection id="73" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/17/poolosyncell" postSegmentId="190" postFractionAlong="0.499984007507"/>
+            <connection id="74" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/17/poolosyncell" postSegmentId="356" postFractionAlong="0.5"/>
+            <connection id="75" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/17/poolosyncell" postSegmentId="133" postFractionAlong="0.999999324757"/>
+            <connection id="76" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/17/poolosyncell" postSegmentId="321" postFractionAlong="0.5"/>
+            <connection id="77" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/17/poolosyncell" postSegmentId="262" postFractionAlong="1.10099959086e-05"/>
+            <connection id="78" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/17/poolosyncell" postSegmentId="360" postFractionAlong="0.999981744496"/>
+            <connection id="79" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/17/poolosyncell" postSegmentId="251" postFractionAlong="3.96989697351e-12"/>
+            <connection id="80" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/18/poolosyncell" postSegmentId="145" postFractionAlong="0.5"/>
+            <connection id="81" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/18/poolosyncell" postSegmentId="194" postFractionAlong="0.999983953976"/>
+            <connection id="82" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/18/poolosyncell" postSegmentId="405" postFractionAlong="0.500013966001"/>
+            <connection id="83" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/18/poolosyncell" postSegmentId="353" postFractionAlong="3.65222797676e-16"/>
+            <connection id="84" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/18/poolosyncell" postSegmentId="298" postFractionAlong="1.37379510906e-05"/>
+            <connection id="85" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/18/poolosyncell" postSegmentId="275" postFractionAlong="0.500025287008"/>
+            <connection id="86" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/18/poolosyncell" postSegmentId="463" postFractionAlong="0.5"/>
+            <connection id="87" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/18/poolosyncell" postSegmentId="335" postFractionAlong="0.999974923653"/>
+            <connection id="88" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/18/poolosyncell" postSegmentId="455" postFractionAlong="0.499999643213"/>
+            <connection id="89" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/18/poolosyncell" postSegmentId="236" postFractionAlong="0.499999691926"/>
+            <connection id="90" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/19/poolosyncell" postSegmentId="214" postFractionAlong="0.5"/>
+            <connection id="91" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/19/poolosyncell" postSegmentId="131" postFractionAlong="4.59712382543e-05"/>
+            <connection id="92" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/19/poolosyncell" postSegmentId="208" postFractionAlong="0.999999999989"/>
+            <connection id="93" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/19/poolosyncell" postSegmentId="307" postFractionAlong="1.25058615817e-15"/>
+            <connection id="94" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/19/poolosyncell" postSegmentId="194" postFractionAlong="0.999983953976"/>
+            <connection id="95" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/19/poolosyncell" postSegmentId="313" postFractionAlong="2.23361225971e-05"/>
+            <connection id="96" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/19/poolosyncell" postSegmentId="288" postFractionAlong="2.50250187615e-05"/>
+            <connection id="97" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/19/poolosyncell" postSegmentId="230" postFractionAlong="0.999999771997"/>
+            <connection id="98" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/19/poolosyncell" postSegmentId="145" postFractionAlong="0.5"/>
+            <connection id="99" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/19/poolosyncell" postSegmentId="145" postFractionAlong="0.5"/>
+            <connection id="100" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/20/poolosyncell" postSegmentId="190" postFractionAlong="0.499984007507"/>
+            <connection id="101" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/20/poolosyncell" postSegmentId="214" postFractionAlong="0.5"/>
+            <connection id="102" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/20/poolosyncell" postSegmentId="434" postFractionAlong="0.499979354574"/>
+            <connection id="103" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/20/poolosyncell" postSegmentId="298" postFractionAlong="1.37379510906e-05"/>
+            <connection id="104" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/20/poolosyncell" postSegmentId="415" postFractionAlong="0.500002578471"/>
+            <connection id="105" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/20/poolosyncell" postSegmentId="473" postFractionAlong="3.65222782353e-11"/>
+            <connection id="106" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/20/poolosyncell" postSegmentId="220" postFractionAlong="0.500026281193"/>
+            <connection id="107" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/20/poolosyncell" postSegmentId="415" postFractionAlong="0.500002578471"/>
+            <connection id="108" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/20/poolosyncell" postSegmentId="325" postFractionAlong="1.0"/>
+            <connection id="109" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/20/poolosyncell" postSegmentId="434" postFractionAlong="0.499979354574"/>
+            <connection id="110" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/21/poolosyncell" postSegmentId="262" postFractionAlong="1.10099959086e-05"/>
+            <connection id="111" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/21/poolosyncell" postSegmentId="172" postFractionAlong="0.50000000002"/>
+            <connection id="112" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/21/poolosyncell" postSegmentId="307" postFractionAlong="1.25058615817e-15"/>
+            <connection id="113" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/21/poolosyncell" postSegmentId="283" postFractionAlong="0.500000298164"/>
+            <connection id="114" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/21/poolosyncell" postSegmentId="307" postFractionAlong="1.25058615817e-15"/>
+            <connection id="115" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/21/poolosyncell" postSegmentId="194" postFractionAlong="0.999983953976"/>
+            <connection id="116" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/21/poolosyncell" postSegmentId="415" postFractionAlong="0.500002578471"/>
+            <connection id="117" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/21/poolosyncell" postSegmentId="399" postFractionAlong="4.74982196414e-06"/>
+            <connection id="118" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/21/poolosyncell" postSegmentId="415" postFractionAlong="0.500002578471"/>
+            <connection id="119" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/21/poolosyncell" postSegmentId="280" postFractionAlong="1.6093190015e-06"/>
+            <connection id="120" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/22/poolosyncell" postSegmentId="241" postFractionAlong="0.500006200538"/>
+            <connection id="121" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/22/poolosyncell" postSegmentId="251" postFractionAlong="3.96989697351e-12"/>
+            <connection id="122" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/22/poolosyncell" postSegmentId="68" postFractionAlong="0.499975497403"/>
+            <connection id="123" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/22/poolosyncell" postSegmentId="446" postFractionAlong="0.4999948015"/>
+            <connection id="124" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/22/poolosyncell" postSegmentId="226" postFractionAlong="0.999975814969"/>
+            <connection id="125" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/22/poolosyncell" postSegmentId="156" postFractionAlong="0.499990615183"/>
+            <connection id="126" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/22/poolosyncell" postSegmentId="78" postFractionAlong="0.500000429382"/>
+            <connection id="127" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/22/poolosyncell" postSegmentId="446" postFractionAlong="0.4999948015"/>
+            <connection id="128" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/22/poolosyncell" postSegmentId="100" postFractionAlong="1.4905932466e-05"/>
+            <connection id="129" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/22/poolosyncell" postSegmentId="415" postFractionAlong="0.500002578471"/>
+            <connection id="130" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/23/poolosyncell" postSegmentId="307" postFractionAlong="1.25058615817e-15"/>
+            <connection id="131" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/23/poolosyncell" postSegmentId="156" postFractionAlong="0.499990615183"/>
+            <connection id="132" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/23/poolosyncell" postSegmentId="373" postFractionAlong="0.49997907467"/>
+            <connection id="133" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/23/poolosyncell" postSegmentId="415" postFractionAlong="0.500002578471"/>
+            <connection id="134" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/23/poolosyncell" postSegmentId="156" postFractionAlong="0.499990615183"/>
+            <connection id="135" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/23/poolosyncell" postSegmentId="291" postFractionAlong="0.499998200037"/>
+            <connection id="136" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/23/poolosyncell" postSegmentId="394" postFractionAlong="0.5"/>
+            <connection id="137" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/23/poolosyncell" postSegmentId="385" postFractionAlong="0.499999999994"/>
+            <connection id="138" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/23/poolosyncell" postSegmentId="201"/>
+            <connection id="139" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/23/poolosyncell" postSegmentId="313" postFractionAlong="2.23361225971e-05"/>
+            <connection id="140" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/24/poolosyncell" postSegmentId="283" postFractionAlong="0.500000298164"/>
+            <connection id="141" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/24/poolosyncell" postSegmentId="267" postFractionAlong="6.16429782873e-07"/>
+            <connection id="142" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/24/poolosyncell" postSegmentId="224" postFractionAlong="8.85425889933e-05"/>
+            <connection id="143" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/24/poolosyncell" postSegmentId="399" postFractionAlong="4.74982196414e-06"/>
+            <connection id="144" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/24/poolosyncell" postSegmentId="434" postFractionAlong="0.499979354574"/>
+            <connection id="145" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/24/poolosyncell" postSegmentId="434" postFractionAlong="0.499979354574"/>
+            <connection id="146" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/24/poolosyncell" postSegmentId="226" postFractionAlong="0.999975814969"/>
+            <connection id="147" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/24/poolosyncell" postSegmentId="137" postFractionAlong="0.999976693672"/>
+            <connection id="148" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/24/poolosyncell" postSegmentId="378" postFractionAlong="0.5"/>
+            <connection id="149" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/24/poolosyncell" postSegmentId="241" postFractionAlong="0.500006200538"/>
+        </projection>
+        <projection id="proj_ngfpop_to_poolosynpop_B" presynapticPopulation="pop_ngf" postsynapticPopulation="pop_poolosyn" synapse="syn_ngf_to_poolosyn_B">
             <connection id="0" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/10/poolosyncell" postSegmentId="335" postFractionAlong="0.999974923653"/>
             <connection id="1" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/10/poolosyncell" postSegmentId="226" postFractionAlong="0.999975814969"/>
             <connection id="2" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_poolosyn/10/poolosyncell" postSegmentId="271" postFractionAlong="6.49997867019e-05"/>
@@ -3214,7 +3366,19 @@
             <connection id="38" preCellId="../pop_ca3/0/spikeGenPoisson" postCellId="../pop_bistratified/0/bistratifiedcell" postSegmentId="4" postFractionAlong="0.0"/>
             <connection id="39" preCellId="../pop_ca3/0/spikeGenPoisson" postCellId="../pop_bistratified/0/bistratifiedcell" postSegmentId="26" postFractionAlong="5.3164139797e-07"/>
         </projection>
-        <projection id="proj_ngfpop_to_ngfpop" presynapticPopulation="pop_ngf" postsynapticPopulation="pop_ngf" synapse="syn_ngf_to_ngf">
+        <projection id="proj_ngfpop_to_ngfpop_A" presynapticPopulation="pop_ngf" postsynapticPopulation="pop_ngf" synapse="syn_ngf_to_ngf_A">
+            <connection id="0" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_ngf/0/ngfcell" postSegmentId="12" postFractionAlong="5.68434342085e-16"/>
+            <connection id="1" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_ngf/0/ngfcell" postSegmentId="17" postFractionAlong="0.999997468791"/>
+            <connection id="2" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_ngf/0/ngfcell" postSegmentId="15" postFractionAlong="0.999999610581"/>
+            <connection id="3" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_ngf/0/ngfcell" postSegmentId="12" postFractionAlong="5.68434342085e-16"/>
+            <connection id="4" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_ngf/0/ngfcell" postSegmentId="17" postFractionAlong="0.999997468791"/>
+            <connection id="5" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_ngf/0/ngfcell" postSegmentId="12" postFractionAlong="5.68434342085e-16"/>
+            <connection id="6" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_ngf/0/ngfcell" postSegmentId="15" postFractionAlong="0.999999610581"/>
+            <connection id="7" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_ngf/0/ngfcell" postSegmentId="12" postFractionAlong="5.68434342085e-16"/>
+            <connection id="8" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_ngf/0/ngfcell" postSegmentId="10" postFractionAlong="9.21045047064e-06"/>
+            <connection id="9" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_ngf/0/ngfcell" postSegmentId="22" postFractionAlong="5.68434342085e-16"/>
+        </projection>
+        <projection id="proj_ngfpop_to_ngfpop_B" presynapticPopulation="pop_ngf" postsynapticPopulation="pop_ngf" synapse="syn_ngf_to_ngf_B">
             <connection id="0" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_ngf/0/ngfcell" postSegmentId="12" postFractionAlong="5.68434342085e-16"/>
             <connection id="1" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_ngf/0/ngfcell" postSegmentId="17" postFractionAlong="0.999997468791"/>
             <connection id="2" preCellId="../pop_ngf/0/ngfcell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_ngf/0/ngfcell" postSegmentId="15" postFractionAlong="0.999999610581"/>
