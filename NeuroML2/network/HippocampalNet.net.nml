@@ -12,6 +12,15 @@
     <include href="../synapses/exp2Synapses.synapse.nml"></include>
     <include href="../synapses/customGABASynapses.synapse.nml"></include>
     <include href="stimulations.nml"></include>
+    <voltageClamp id="vc_ngf" delay="0ms" duration="2ms" targetVoltage="-59.9512mV" simpleSeriesResistance="5e4ohm"/>
+    <voltageClamp id="vc_bistratified" delay="0ms" duration="2ms" targetVoltage="-67.0184mV" simpleSeriesResistance="5e4ohm"/>
+    <voltageClamp id="vc_sca" delay="0ms" duration="2ms" targetVoltage="-70.5652mV" simpleSeriesResistance="5e4ohm"/>
+    <voltageClamp id="vc_olm" delay="0ms" duration="2ms" targetVoltage="-71.1411mV" simpleSeriesResistance="5e4ohm"/>
+    <voltageClamp id="vc_ivy" delay="0ms" duration="2ms" targetVoltage="-59.9512mV" simpleSeriesResistance="5e4ohm"/>
+    <voltageClamp id="vc_pvbasket" delay="0ms" duration="2ms" targetVoltage="-65.0246mV" simpleSeriesResistance="5e4ohm"/>
+    <voltageClamp id="vc_cck" delay="0ms" duration="2ms" targetVoltage="-70.6306mV" simpleSeriesResistance="5e4ohm"/>
+    <voltageClamp id="vc_axoaxonic" delay="0ms" duration="2ms" targetVoltage="-65.0127mV" simpleSeriesResistance="5e4ohm"/>
+    <voltageClamp id="vc_poolosyn" delay="0ms" duration="2ms" targetVoltage="-62.9601mV" simpleSeriesResistance="5e4ohm"/>
     <network id="HippocampalNet" type="networkWithTemperature" temperature="34.0 degC">
         <notes>Network generated using libNeuroML v0.2.13</notes>
         <population id="pop_ngf" component="ngfcell" size="1" type="populationList">
@@ -5947,5 +5956,62 @@
             <connection id="43" preCellId="../pop_poolosyn/23/poolosyncell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_olm/0/olmcell" postSegmentId="3" postFractionAlong="0.885"/>
             <connection id="44" preCellId="../pop_poolosyn/23/poolosyncell" preSegmentId="2" preFractionAlong="0.0" postCellId="../pop_olm/0/olmcell" postSegmentId="5" postFractionAlong="0.885"/>
         </projection>
+        <inputList id="input_vc_ngf" population="pop_ngf" component="vc_ngf">
+            <input id="0" target="../pop_ngf/0/ngfcell" destination="synapses"/>
+        </inputList>
+        <inputList id="input_vc_bistratified" population="pop_bistratified" component="vc_bistratified">
+            <input id="0" target="../pop_bistratified/0/bistratifiedcell" destination="synapses"/>
+        </inputList>
+        <inputList id="input_vc_sca" population="pop_sca" component="vc_sca">
+            <input id="0" target="../pop_sca/0/scacell" destination="synapses"/>
+        </inputList>
+        <inputList id="input_vc_olm" population="pop_olm" component="vc_olm">
+            <input id="0" target="../pop_olm/0/olmcell" destination="synapses"/>
+        </inputList>
+        <inputList id="input_vc_ivy" population="pop_ivy" component="vc_ivy">
+            <input id="0" target="../pop_ivy/0/ivycell" destination="synapses"/>
+        </inputList>
+        <inputList id="input_vc_pvbasket" population="pop_pvbasket" component="vc_pvbasket">
+            <input id="0" target="../pop_pvbasket/0/pvbasketcell" destination="synapses"/>
+        </inputList>
+        <inputList id="input_vc_cck" population="pop_cck" component="vc_cck">
+            <input id="0" target="../pop_cck/0/cckcell" destination="synapses"/>
+        </inputList>
+        <inputList id="input_vc_axoaxonic" population="pop_axoaxonic" component="vc_axoaxonic">
+            <input id="0" target="../pop_axoaxonic/0/axoaxoniccell" destination="synapses"/>
+        </inputList>
+        <inputList id="input_vc_poolosyn" population="pop_poolosyn" component="vc_poolosyn">
+            <input id="0" target="../pop_poolosyn/0/poolosyncell" destination="synapses"/>
+            <input id="1" target="../pop_poolosyn/1/poolosyncell" destination="synapses"/>
+            <input id="2" target="../pop_poolosyn/2/poolosyncell" destination="synapses"/>
+            <input id="3" target="../pop_poolosyn/3/poolosyncell" destination="synapses"/>
+            <input id="4" target="../pop_poolosyn/4/poolosyncell" destination="synapses"/>
+            <input id="5" target="../pop_poolosyn/5/poolosyncell" destination="synapses"/>
+            <input id="6" target="../pop_poolosyn/6/poolosyncell" destination="synapses"/>
+            <input id="7" target="../pop_poolosyn/7/poolosyncell" destination="synapses"/>
+            <input id="8" target="../pop_poolosyn/8/poolosyncell" destination="synapses"/>
+            <input id="9" target="../pop_poolosyn/9/poolosyncell" destination="synapses"/>
+            <input id="10" target="../pop_poolosyn/10/poolosyncell" destination="synapses"/>
+            <input id="11" target="../pop_poolosyn/11/poolosyncell" destination="synapses"/>
+            <input id="12" target="../pop_poolosyn/12/poolosyncell" destination="synapses"/>
+            <input id="13" target="../pop_poolosyn/13/poolosyncell" destination="synapses"/>
+            <input id="14" target="../pop_poolosyn/14/poolosyncell" destination="synapses"/>
+            <input id="15" target="../pop_poolosyn/15/poolosyncell" destination="synapses"/>
+            <input id="16" target="../pop_poolosyn/16/poolosyncell" destination="synapses"/>
+            <input id="17" target="../pop_poolosyn/17/poolosyncell" destination="synapses"/>
+            <input id="18" target="../pop_poolosyn/18/poolosyncell" destination="synapses"/>
+            <input id="19" target="../pop_poolosyn/19/poolosyncell" destination="synapses"/>
+            <input id="20" target="../pop_poolosyn/20/poolosyncell" destination="synapses"/>
+            <input id="21" target="../pop_poolosyn/21/poolosyncell" destination="synapses"/>
+            <input id="22" target="../pop_poolosyn/22/poolosyncell" destination="synapses"/>
+            <input id="23" target="../pop_poolosyn/23/poolosyncell" destination="synapses"/>
+            <input id="24" target="../pop_poolosyn/24/poolosyncell" destination="synapses"/>
+            <input id="25" target="../pop_poolosyn/25/poolosyncell" destination="synapses"/>
+            <input id="26" target="../pop_poolosyn/26/poolosyncell" destination="synapses"/>
+            <input id="27" target="../pop_poolosyn/27/poolosyncell" destination="synapses"/>
+            <input id="28" target="../pop_poolosyn/28/poolosyncell" destination="synapses"/>
+            <input id="29" target="../pop_poolosyn/29/poolosyncell" destination="synapses"/>
+            <input id="30" target="../pop_poolosyn/30/poolosyncell" destination="synapses"/>
+        </inputList>
     </network>
 </neuroml>
