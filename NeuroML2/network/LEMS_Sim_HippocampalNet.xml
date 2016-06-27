@@ -57,15 +57,15 @@
     <Simulation id="Sim_HippocampalNet" length="100ms" step="0.01ms" target="HippocampalNet" seed="12345">  <!-- Note seed: ensures same random numbers used every run -->
         
         <Display id="disp_PC" title="Voltages Pyramidal cells" timeScale="1ms" xmin="-10.0" xmax="110.0" ymin="-80" ymax="50">
-            <Line id="PC 0: V[mV]" quantity="pop_poolosyn/0/poolosyncell/v" scale="1mV" color="#2ca1c7" timeScale="1ms"/>
-            <Line id="PC 1: V[mV]" quantity="pop_poolosyn/1/poolosyncell/v" scale="1mV" color="#8d9fe5" timeScale="1ms"/>
-            <Line id="PC 2: V[mV]" quantity="pop_poolosyn/2/poolosyncell/v" scale="1mV" color="#5adad1" timeScale="1ms"/>
-            <Line id="PC 3: V[mV]" quantity="pop_poolosyn/3/poolosyncell/v" scale="1mV" color="#f543bb" timeScale="1ms"/>
-            <Line id="PC 4: V[mV]" quantity="pop_poolosyn/4/poolosyncell/v" scale="1mV" color="#175f0c" timeScale="1ms"/>
-            <Line id="PC 5: V[mV]" quantity="pop_poolosyn/5/poolosyncell/v" scale="1mV" color="#fa8826" timeScale="1ms"/>
-            <Line id="PC 6: V[mV]" quantity="pop_poolosyn/6/poolosyncell/v" scale="1mV" color="#6980a8" timeScale="1ms"/>
-            <Line id="PC 7: V[mV]" quantity="pop_poolosyn/7/poolosyncell/v" scale="1mV" color="#8101e8" timeScale="1ms"/>
-            <Line id="PC 8: V[mV]" quantity="pop_poolosyn/8/poolosyncell/v" scale="1mV" color="#25ece8" timeScale="1ms"/>
+            <Line id="PC 0: V[mV]" quantity="pop_poolosyn/0/poolosyncell/v" scale="1mV" color="#f5ec9f" timeScale="1ms"/>
+            <Line id="PC 1: V[mV]" quantity="pop_poolosyn/1/poolosyncell/v" scale="1mV" color="#4a8c49" timeScale="1ms"/>
+            <Line id="PC 2: V[mV]" quantity="pop_poolosyn/2/poolosyncell/v" scale="1mV" color="#080118" timeScale="1ms"/>
+            <Line id="PC 3: V[mV]" quantity="pop_poolosyn/3/poolosyncell/v" scale="1mV" color="#da072b" timeScale="1ms"/>
+            <Line id="PC 4: V[mV]" quantity="pop_poolosyn/4/poolosyncell/v" scale="1mV" color="#94df39" timeScale="1ms"/>
+            <Line id="PC 5: V[mV]" quantity="pop_poolosyn/5/poolosyncell/v" scale="1mV" color="#d50467" timeScale="1ms"/>
+            <Line id="PC 6: V[mV]" quantity="pop_poolosyn/6/poolosyncell/v" scale="1mV" color="#75b6fe" timeScale="1ms"/>
+            <Line id="PC 7: V[mV]" quantity="pop_poolosyn/7/poolosyncell/v" scale="1mV" color="#36927e" timeScale="1ms"/>
+            <Line id="PC 8: V[mV]" quantity="pop_poolosyn/8/poolosyncell/v" scale="1mV" color="#b18d1e" timeScale="1ms"/>
         </Display>
         
         <OutputFile id="of_ngf" fileName="ngf.v.dat">
