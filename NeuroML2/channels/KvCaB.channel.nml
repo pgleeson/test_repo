@@ -19,13 +19,13 @@
             extends="baseVoltageConcDepRate"
             description="forward rate to describe KvCaB">
         
-        <Requirement name="temperature" dimension="temperature"/>
-        
         <Constant name="R" dimension="idealGasConstantDims" value="8.313424 J_per_K_per_mol"/>
         <Constant name="zCa" dimension="none" value="2"/>
         <Constant name="F" dimension="charge_per_mole" value="96485.3 C_per_mol"/> <!-- NEURON's built in Faraday -->
         <Constant name="TIME_SCALE" dimension="time" value="1 ms"/>
         <Constant name="CONC_SCALE" dimension="concentration" value="1 mM"/>
+        
+        <Requirement name="temperature" dimension="temperature"/>
         
         <Dynamics>
             <DerivedVariable name="ca_conc_i" dimension="none" value="caConc / CONC_SCALE"/>
@@ -44,13 +44,13 @@
             extends="baseVoltageConcDepRate"
             description="reverse rate to describe KvCaB">
         
-        <Requirement name="temperature" dimension="temperature"/>
-        
         <Constant name="R" dimension="idealGasConstantDims" value="8.313424 J_per_K_per_mol"/>
         <Constant name="zCa" dimension="none" value="2"/>
         <Constant name="F" dimension="charge_per_mole" value="96485.3 C_per_mol"/> <!-- NEURON's built in Faraday --> 
         <Constant name="TIME_SCALE" dimension="time" value="1 ms"/>
         <Constant name="CONC_SCALE" dimension="concentration" value="1 mM"/>
+        
+        <Requirement name="temperature" dimension="temperature"/>
         
         <Dynamics>
             <DerivedVariable name="ca_conc_i" dimension="none" value="caConc / CONC_SCALE"/>

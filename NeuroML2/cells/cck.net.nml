@@ -20,7 +20,7 @@
         </instance>
     </population>
 
-        <inputList id="IClamp" component="IClamp" population="pop">
+        <inputList id="IClamp" component="IClamp" population="Pop_cckcell">
             <input id="0" target="../Pop_cckcell/0/cckcell" destination="synapses"/>
         </inputList>   
  
