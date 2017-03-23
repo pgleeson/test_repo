@@ -3,7 +3,7 @@ import neuroml
 from pyneuroml import pynml
 import random
 
-nml_file = "HippocampalNet.net.nml"
+nml_file = "LargeScale_HippocampalNet.net.nml"
 nml_doc = pynml.read_neuroml2_file(nml_file)
 
 width =1500

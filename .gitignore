@@ -1,0 +1,8 @@
+/NeuroML2/network/*.mod
+/NeuroML2/network/*_nrn.py
+/NeuroML2/network/*.dat
+/NeuroML2/network/*.hoc
+/NeuroML2/network/x86_64/
+/NeuroML2/network/*.png
+/NeuroML2/network/*.pov
+/NeuroML2/network/*.spikes
