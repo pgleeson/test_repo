@@ -1,4 +1,4 @@
-<neuroml xmlns="http://www.neuroml.org/schema/neuroml2"  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta4.xsd" id="HippocampalNet">
+<neuroml xmlns="http://www.neuroml.org/schema/neuroml2"  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta5.xsd" id="HippocampalNet">
     <include href="../cells/axoaxonic.cell.nml"></include>
     <include href="../cells/bistratified.cell.nml"></include>
     <include href="../cells/cck.cell.nml"></include>
@@ -22,7 +22,7 @@
     <voltageClamp id="vc_axoaxonic" delay="0ms" duration="1ms" targetVoltage="-65.0127mV" simpleSeriesResistance="5e4ohm"/>
     <voltageClamp id="vc_poolosyn" delay="0ms" duration="1ms" targetVoltage="-62.9601mV" simpleSeriesResistance="5e4ohm"/>
     <network id="HippocampalNet" type="networkWithTemperature" temperature="34.0 degC">
-        <notes>Network generated using libNeuroML v0.2.13</notes>
+        <notes>Network generated using libNeuroML v0.2.29</notes>
         <population id="pop_ngf" component="ngfcell" size="1" type="populationList">
             <property tag="color" value="0.41662 0.0101692 0.825207"/>
             <instance id="0">
