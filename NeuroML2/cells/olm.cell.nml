@@ -104,7 +104,7 @@
                 <channelDensity id="leak_all" ionChannel="leak_chan" condDensity="0.01mS_per_cm2" erev="-67mV" ion="non_specific"/>
                 <spikeThresh value="0 mV"/>
                 <specificCapacitance value="1.3uF_per_cm2"/>
-                <initMembPotential value="-65.0mV"/>
+                <initMembPotential value="-67.0mV"/>
             </membraneProperties>
             <intracellularProperties>
                 <resistivity value="0.15 kohm_cm"/>

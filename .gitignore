@@ -42,3 +42,4 @@ results/*
 /NeuroML2/synapses/LEMS_test_nrn.py
 /NeuroML2/synapses/ngfcell.hoc
 /NeuroML2/network/morphology_helper.pyc
+/NeuroML2/cells/tests

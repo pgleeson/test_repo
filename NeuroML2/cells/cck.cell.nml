@@ -370,7 +370,7 @@
                 </channelDensityNonUniform>
                 <spikeThresh value="0 mV"/>
                 <specificCapacitance value="1.4uF_per_cm2"/>
-                <initMembPotential value="-65.0mV"/>
+                <initMembPotential value="-72.0mV"/>
             </membraneProperties>
             <intracellularProperties>
                 <species id="ca" concentrationModel="Capool" ion="ca" initialConcentration="5e-5 mM" initialExtConcentration="2 mM"/>

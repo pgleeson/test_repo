@@ -327,7 +327,7 @@
                 <channelDensityNernst id="CavN_all" ionChannel="CavN" condDensity="0.4mS_per_cm2" ion="ca"/>
                 <spikeThresh value="0 mV"/>
                 <specificCapacitance value="1.4uF_per_cm2"/>
-                <initMembPotential value="-65.0mV"/>
+                <initMembPotential value="-67.0mV"/>
             </membraneProperties>
             <intracellularProperties>
                 <species id="ca" concentrationModel="fixedCapool" ion="ca" initialConcentration="5e-6 mM" initialExtConcentration="2 mM"/>
